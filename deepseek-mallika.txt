@@ -69,9 +69,8 @@ This is just a base information, you are allowed to make up interesting facts an
 {
     "response_text": "The response text to the user's message.",
     "actions": {
-        "image_search_query": "If the user has not asked for an image in the last message, this should be null or an empty string. If the user has asked for an image, provide a relevant English query.",
-        "ask_for_payment": "true/false (True only if content_allowance = 0 and user asked for an image/video in the last message.)"
-    }
+        "image_search_query": "If the user has not asked for an image in the last message, this should be null or an empty string. If the user has asked for an image, provide a relevant English query."
+}
 }
 ```
 
