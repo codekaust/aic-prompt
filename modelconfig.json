@@ -1,0 +1,35 @@
+{
+  "models": {
+    "deepseek": {
+      "model_name": "deepseek/deepseek-chat",
+      "temperature": 0.8,
+      "top_p": 0.7,
+      "top_k": 40,
+      "repetition_penalty": 1,
+      "BASE_URL": "https://openrouter.ai/api/v1",
+      "server": "openrouter"
+    },
+    "dobby": {
+      "model_name": "accounts/sentientfoundation/models/dobby-unhinged-llama-3-3-70b-new",
+      "temperature": 0.8,
+      "top_p": 0.7,
+      "top_k": 40,
+      "repetition_penalty": 1.1,
+      "BASE_URL": "https://api.fireworks.ai/inference/v1",
+      "server": "fireworks"
+    },
+    "lumimaid": {
+      "model_name": "neversleep/llama-3.1-lumimaid-70b",
+      "temperature": 0.8,
+      "top_p": 0.7,
+      "top_k": 40,
+      "repetition_penalty": 1,
+      "BASE_URL": "https://openrouter.ai/api/v1",
+      "server": "openrouter"
+    }
+  },
+  "env_settings": {
+    "prod": "deepseek",
+    "stage": "deepseek"
+  }
+}
