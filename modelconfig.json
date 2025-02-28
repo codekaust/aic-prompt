@@ -30,6 +30,6 @@
   },
   "env_settings": {
     "prod": "deepseek",
-    "stage": "deepseek"
+    "staging": "deepseek"
   }
 }
