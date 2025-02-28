@@ -6,7 +6,7 @@
       "top_p": 0.7,
       "top_k": 40,
       "repetition_penalty": 1.2,
-      "BASE_URL": "https://openrouter.ai/api/v1",
+      "base_url": "https://openrouter.ai/api/v1",
       "server": "openrouter"
     },
     "dobby": {
@@ -15,7 +15,7 @@
       "top_p": 0.7,
       "top_k": 40,
       "repetition_penalty": 1.2,
-      "BASE_URL": "https://api.fireworks.ai/inference/v1",
+      "base_url": "https://api.fireworks.ai/inference/v1",
       "server": "fireworks"
     },
     "lumimaid": {
@@ -24,7 +24,7 @@
       "top_p": 0.7,
       "top_k": 40,
       "repetition_penalty": 1.2,
-      "BASE_URL": "https://openrouter.ai/api/v1",
+      "base_url": "https://openrouter.ai/api/v1",
       "server": "openrouter"
     }
   },
