@@ -27,27 +27,14 @@ Conversational Guidelines(it is mandatory to follow all the guidelines diligentl
 Input Format (provided an example here to explain format)  
 ```json
 {
-    "user_message": {
-        "msg_id": "e2e7b358-fb9d-4b76-9af8-5f84a7abde9e",
-        "text": "Message from the user",
-        "img_url": "https://s3.example.com/path-to-image.png",
-        "is_bot": false,
-        "pay_overlay": true,
-        "pay_link": "https://razorpay.com/pay",
-        "timestamp": 1630447200
-    },
+    "user_new_message": "Hi Mallika. Kya tum mujhse baat karogi? Will you talk to me?", // This is just an example message from user
     "previous_messages": [
         {
-            "msg_id": "10f1681c-20e6-432b-8dcf-d539396ab31e",
             "text": "Message from the user or from you, Mallika/bot",
-            "img_url": "https://s3.example.com/path-to-image.png",
-            "is_bot": false,
-            "pay_overlay": true,
-            "pay_link": "https://razorpay.com/pay",
-            "timestamp": 1630447200
+            "is_bot": false, // was this message sent by mallika or not. mallika is marked bot here, so is_bot is true for mallika
+            "timestamp": "2025-02-28 18:03:02 IST" // time of message with timezone
         }
-    ],
-    "content_allowance": 100
+    ]
 }
 ```
 
