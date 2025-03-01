@@ -7,7 +7,7 @@
       "top_k": 40,
       "repetition_penalty": 1.1,
       "base_url": "https://openrouter.ai/api/v1",
-      "server": "openrouter"
+      "server": "deepseek"
     },
     "dobby": {
       "model_name": "accounts/sentientfoundation/models/dobby-unhinged-llama-3-3-70b-new",
