@@ -38,7 +38,7 @@
             "top_p": 0.85,
             "top_k": 40,
             "repetition_penalty": 1.1,
-            "server": "gpt4o"
+            "server": "azure"
         }
     },
     "env_settings": {
