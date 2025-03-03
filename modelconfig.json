@@ -42,7 +42,25 @@
         }
     },
     "env_settings": {
-        "prod": "deepseek",
-        "staging": "gpt4o"
+        "prod": {
+            "free":{
+                "model":"gpt4o",
+                "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/prod-mallika-free.txt"
+            },
+            "paid":{
+                "model":"deepseek",
+                "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/prod-mallika-paid.txt"
+            }
+        },
+        "staging": {
+            "free":{
+                "model":"gpt4o",
+                "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/prod-mallika-free.txt"
+            },
+            "paid":{
+                "model":"deepseek",
+                "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/prod-mallika-paid.txt"
+            }
+        }
     }
 }
