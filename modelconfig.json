@@ -1,12 +1,12 @@
 {
     "models": {
         "deepseek": {
-            "model_name": "deepseek-chat",
+            "model_name": "deepseek/deepseek-chat",
             "temperature": 0.95,
             "top_p": 0.85,
             "top_k": 40,
             "repetition_penalty": 1.1,
-            "server": "deepseek"
+            "server": "openrouter"
         },
         "dobby": {
             "model_name": "accounts/sentientfoundation/models/dobby-unhinged-llama-3-3-70b-new",
