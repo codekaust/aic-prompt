@@ -35,9 +35,7 @@
         "gpt4o": {
             "model_name": "gpt-4o",
             "temperature": 0.95,
-            "top_p": 0.80,
-            "top_k": 40,
-            "repetition_penalty": 1.1,
+            "top_p": 0.85,
             "server": "azure"
         }
     },
