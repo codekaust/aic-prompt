@@ -52,7 +52,7 @@
         },
         "staging": {
             "free":{
-                "model":"gpt4o",
+                "model":"deepseek",
                 "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/deepseek-mallika-staging.txt"
             },
             "paid":{
