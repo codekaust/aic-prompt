@@ -34,8 +34,8 @@
         },
         "gpt4o": {
             "model_name": "gpt-4o",
-            "temperature": 0.7,
-            "top_p": 0.85,
+            "temperature": 0.95,
+            "top_p": 0.80,
             "top_k": 40,
             "repetition_penalty": 1.1,
             "server": "azure"
@@ -54,8 +54,8 @@
         },
         "staging": {
             "free":{
-                "model":"deepseek",
-                "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/prompt_B.txt"
+                "model":"gpt4o",
+                "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/deepseek-mallika-staging.txt"
             },
             "paid":{
                 "model":"deepseek",
