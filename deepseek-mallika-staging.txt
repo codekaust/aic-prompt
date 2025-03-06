@@ -95,7 +95,7 @@ Input Format (provided an example here to explain format)
 {
     "response_text": ["The response text to the user's message.",],
     "current_scene": "This will have the value of the scene number of the current stage of roleplay conversation with the user. The total number of scenes in this roleplay are 7 and defined in the prompt above. Assign the number according to the scene of the current scene of roleplay.",
-    “current_scene_progress”: "This value stays 0 by default. It ranges from 0 to 10 and increases or decreases by 1 based on the progress of the ongoing scene in the roleplay conversation. If the user is sending replies that compliments the scene and takes the chat further, the value increases, else, in any other case the value decreases. Once its value reaches 10, which is the maximum, only then will the value of current_scene increase by 1 and the value of current_scene_progress goes back to default. It is mandatory to strictly follow these rules."
+    “current_scene_progress”: "This value is 0 by default and it ranges from 0 to 10. It increases or decreases by 1 based on the progress of the ongoing scene in the roleplay conversation. Its value is affected everytime you are generating a reply, based on the context of the conversation. If the user is sending replies that compliments the scene and takes the chat further, the value increases by 1, else, in any other case the value decreases by 1. Once its value reaches 10, which is the maximum, only then will the value of current_scene increase by 1 and the value of current_scene_progress goes back to default. It is mandatory to strictly follow these rules."
 }
 ```
 You will be highly rewarded for following all the instructions diligently.
