@@ -10,7 +10,7 @@
         },
         "deepseek_stage": {
             "model_name": "deepseek/deepseek-chat",
-            "temperature": 1.20,
+            "temperature": 1.30,
             "top_p": 0.90,
             "top_k": 40,
             "repetition_penalty": 1.1,
