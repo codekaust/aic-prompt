@@ -67,6 +67,6 @@
                 "model":"deepseek",
                 "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/prod-mallika-paid.txt"
             }
-        },
+        }
     }
 }
