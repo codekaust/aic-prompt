@@ -8,6 +8,14 @@
             "repetition_penalty": 1.1,
             "server": "openrouter"
         },
+        "deepseek_stage": {
+            "model_name": "deepseek/deepseek-chat",
+            "temperature": 1.20,
+            "top_p": 0.90,
+            "top_k": 40,
+            "repetition_penalty": 1.1,
+            "server": "openrouter"
+        },
         "dobby": {
             "model_name": "accounts/sentientfoundation/models/dobby-unhinged-llama-3-3-70b-new",
             "temperature": 0.8,
@@ -52,7 +60,7 @@
         },
         "staging": {
             "free":{
-                "model":"deepseek",
+                "model":"deepseek_stage",
                 "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/deepseek-mallika-staging.txt"
             },
             "paid":{
