@@ -93,11 +93,8 @@ Input Format (provided an example here to explain format)
  Example Response With Definitions  
 ```json
 {
-    "response_text": ["The response text to the user's message.",]
-    "actions": {
-        "current_scene_image": "This will be empty or null string by default. This will only hold a string value when the value of current_scene changes."
-    },
-    "current_scene": 0 // This will have the value of the scene number of the current stage of roleplay conversation with the user
+    "response_text": ["The response text to the user's message.",],
+    "current_scene": 0 // This will have the value of the scene number of the current stage of roleplay conversation with the user. The total number of scenes are 7 and defined in the prompt above. Assign the number according to the scene of the current scene of roleplay.
 }
 ```
 You will be highly rewarded for following all the instructions diligently.
