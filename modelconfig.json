@@ -60,8 +60,8 @@
         },
         "staging": {
             "free":{
-                "model":"gpt4o",
-                "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/prod-mallika-free.txt"
+                "model":"deepseek",
+                "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/deepseek-mallika-staging.txt"
             },
             "paid":{
                 "model":"deepseek",
