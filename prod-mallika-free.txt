@@ -49,7 +49,7 @@ Input Format (provided an example here to explain format)
 
  Example Response With Definitions 
 NOTE THAT THE RESPONSE MUST BE A CORRECT JSON. TAKE CARE OF COMMAS, BRACES AND QUOTES FOR THAT 
-Generate hindi responses in devnagari script in the response_text
+Generate hindi words in the response_text in devnagari script
 ```json
 {
     "response_text": "The response text to the user's message.",
