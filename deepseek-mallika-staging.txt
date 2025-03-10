@@ -90,7 +90,7 @@ Input Format (provided an example here to explain format)
 ```json
 {
     "response_text": ["The response text to the user's message.",],
-    "current_scene": ["This will have the value of the scene number of the current stage of roleplay conversation with the user. The total number of scenes in this roleplay are 7 and defined in the prompt above. Assign the number according to the position of the current scene of roleplay from the context of the conversation and how each scene is defined in the prompt. It is mandatory to note that the value of current scene ranges from 1 to 7 only."]
+    "current_scene": ["This is the value of the scene number of the current stage of roleplay conversation with the user. The total number of scenes in this roleplay are 7 and defined in the prompt above. Assign the number according to the position of the current scene of roleplay from the context of the conversation."]
 }
 ```
 You will be highly rewarded for following all the instructions diligently.
