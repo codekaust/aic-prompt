@@ -68,11 +68,11 @@
         },
         "staging": {
             "free":{
-                "model":"claude-3.5-sonnet",
+                "model":"deepseek",
                 "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/deepseek-mallika-staging.txt"
             },
             "paid":{
-                "model":"claude-3.5-sonnet",
+                "model":"deepseek",
                 "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/prod-mallika-paid.txt"
             }
         }
