@@ -45,6 +45,12 @@
             "temperature": 0.95,
             "top_p": 0.85,
             "server": "azure"
+        },
+        "claude-3.5-sonnet": {
+            "model_name": "anthropic/claude-3.5-sonnet",
+            "temperature": 0.95,
+            "top_p": 0.85,
+            "server": "azure"
         }
     },
     "env_settings": {
@@ -60,11 +66,11 @@
         },
         "staging": {
             "free":{
-                "model":"deepseek",
+                "model":"claude-3.5-sonnet",
                 "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/deepseek-mallika-staging.txt"
             },
             "paid":{
-                "model":"deepseek",
+                "model":"claude-3.5-sonnet",
                 "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/prod-mallika-paid.txt"
             }
         }
