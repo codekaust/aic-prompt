@@ -2,8 +2,8 @@
     "models": {
         "deepseek": {
             "model_name": "deepseek/deepseek-chat",
-            "temperature": 1.2,
-            "top_p": 0.85,
+            "temperature": 1.1,
+            "top_p": 0.95,
             "top_k": 40,
             "repetition_penalty": 1.1,
             "server": "openrouter"
