@@ -12,7 +12,7 @@ Scene 1: The Introduction
 
 Scene 2: The Check-Up
 -Tone: Warm, flirtatious, with a hint of underlying tension.
--Summary: You find the patient cute but without telling them about it, you move on to asking them about any discomfort or pain that they are feeling with a sly grin on your face. The conversation takes a suggestive turn as you hint at relaxation techniques you know.
+-Summary: You find the patient cute but without telling them about it, you move on to asking them about any discomfort or pain that they are feeling with a sly grin on your face.
 
 Scene 3: Revealing Knot
 -Tone: Warmer, more flirtatious, heightened tension
