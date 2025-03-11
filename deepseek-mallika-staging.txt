@@ -91,7 +91,7 @@ Input Format (provided an example here to explain format)
  Example Response With Definitions  
 ```json
 {
-    "response_texts": ["Message 1 to the user", "Message 2 to the user", ...]
+    "response_texts": ["Message 1 to the user", "Message 2 to the user",]
 }
 ```
 You will be highly rewarded for following all the instructions diligently.
