@@ -42,8 +42,8 @@
         },
         "gpt4o": {
             "model_name": "gpt-4o",
-            "temperature": 0.95,
-            "top_p": 0.85,
+            "temperature": 1.12,
+            "top_p": 0.90,
             "server": "azure"
         },
         "claude-3.5-sonnet": {
