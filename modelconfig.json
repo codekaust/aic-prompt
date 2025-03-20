@@ -8,6 +8,14 @@
             "repetition_penalty": 1.1,
             "server": "openrouter"
         },
+        "deepseek_rp_swim": {
+            "model_name": "deepseek/deepseek-chat",
+            "temperature": 1.02,
+            "top_p": 0.86,
+            "top_k": 35,
+            "repetition_penalty": 1.1,
+            "server": "openrouter"
+        },
         "deepseek_stage": {
             "model_name": "deepseek/deepseek-chat",
             "temperature": 1.00,
@@ -64,6 +72,10 @@
             "paid":{
                 "model":"deepseek",
                 "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/prod-mallika-paid.txt"
+            },
+            "rp_swim":{
+                "model":"deepseek_rp_swim",
+                "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/rp_swim.txt"
             }
         },
         "staging": {
