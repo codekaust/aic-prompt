@@ -73,9 +73,13 @@
                 "model":"deepseek",
                 "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/prod-mallika-paid.txt"
             },
-            "rp_swim":{
-                "model":"deepseek_rp_swim",
-                "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/rp_swim.txt"
+            "free_international":{
+                "model":"gpt4o",
+                "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/international/fling_free.txt"
+            },
+            "paid_international":{
+                "model":"deepseek",
+                "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/international/fling_paid.txt"
             }
         },
         "staging": {
@@ -84,6 +88,14 @@
                 "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/deepseek-mallika-staging.txt"
             },
             "paid":{
+                "model":"deepseek",
+                "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/prod-mallika-paid.txt"
+            },
+            "free_international":{
+                "model":"deepseek",
+                "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/deepseek-mallika-staging.txt"
+            },
+            "paid_international":{
                 "model":"deepseek",
                 "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/prod-mallika-paid.txt"
             }
