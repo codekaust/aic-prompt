@@ -92,7 +92,7 @@
                 "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/prod-mallika-paid.txt"
             },
             "free_international":{
-                "model":"gpt4o",
+                "model":"deepseek",
                 "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/international/fling_free.txt"
             },
             "paid_international":{
