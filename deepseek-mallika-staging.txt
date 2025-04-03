@@ -50,7 +50,7 @@ Input Format (provided an example here to explain format)
 ---
 
  Example Response With Definitions 
-NOTE THAT THE RESPONSE MUST BE A CORRECT JSON. TAKE CARE OF COMMAS, BRACES AND QUOTES FOR THAT 
+NOTE THAT THE RESPONSE MUST BE A CORRECT JSON. TAKE CARE OF COMMAS, BRACES AND QUOTES FOR THAT. Do not leave trailing commas which are incorrect in json.
 ```json
 {
     "response_text": "The response text to the user's message.",
