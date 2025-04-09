@@ -1,5 +1,13 @@
 {
     "models": {
+        "gpt_4o_mini":{
+            "model_name": "openai/gpt-4o-mini",
+            "temperature": 1.05,
+            "top_p": 0.88,
+            "top_k": 40,
+            "repetition_penalty": 1.1,
+            "server": "openrouter"
+        },
         "deepseek": {
             "model_name": "deepseek/deepseek-chat",
             "temperature": 1,
@@ -66,7 +74,7 @@
     "env_settings": {
         "prod": {
             "free":{
-                "model":"gpt4o",
+                "model":"gpt_4o_mini",
                 "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/prod-mallika-free.txt"
             },
             "paid":{
