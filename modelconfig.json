@@ -1,6 +1,6 @@
 {
     "models": {
-        "gpt_4o_mini":{
+        "gpt_4o_mini_openrouter":{
             "model_name": "openai/gpt-4o-mini",
             "temperature": 1.05,
             "top_p": 0.88,
@@ -98,11 +98,11 @@
         },
         "staging": {
             "free":{
-                "model":"gpt4o",
+                "model":"gpt4o_azure",
                 "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/deepseek-mallika-staging.txt"
             },
             "paid":{
-                "model":"deepseek",
+                "model":"gpt4o_azure",
                 "prompt":"https://raw.githubusercontent.com/codekaust/aic-prompt/refs/heads/main/prod-mallika-paid.txt"
             },
             "free_international":{
