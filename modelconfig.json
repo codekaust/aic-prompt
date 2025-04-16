@@ -15,7 +15,7 @@
             "server": "azure"
         },
         "deepseek": {
-            "model_name": "deepseek/deepseek-chat",
+            "model_name": "deepseek/deepseek-chat-v3-0324",
             "temperature": 1,
             "top_p": 0.85,
             "top_k": 40,
@@ -23,7 +23,7 @@
             "server": "openrouter"
         },
         "deepseek_rp_swim": {
-            "model_name": "deepseek/deepseek-chat",
+            "model_name": "deepseek/deepseek-chat-v3-0324",
             "temperature": 1.02,
             "top_p": 0.86,
             "top_k": 35,
@@ -31,7 +31,7 @@
             "server": "openrouter"
         },
         "deepseek_stage": {
-            "model_name": "deepseek/deepseek-chat",
+            "model_name": "deepseek/deepseek-chat-v3-0324",
             "temperature": 1.00,
             "top_p": 0.85,
             "top_k": 40,
